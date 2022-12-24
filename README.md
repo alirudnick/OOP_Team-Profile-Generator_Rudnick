@@ -1,57 +1,51 @@
-# OOP_Team-Profile-Generator_Rudnick
-Team_profile_generator
+# 10 Object-Oriented Programming: Team Profile Generator
 
-Description
-This project required building a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. Tests were written for each part of the code using Jest to ensure that it passes all of them.
+## Task
+Your task is to build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
+Because this Challenge will require the use of the Inquirer package, ensure that you install and use Inquirer version 8.2.4. To do so, use the following command in your project folder: npm i inquirer@8.2.4.
+Testing is key to making code maintainable, so you’ll also write a unit test for every part of your code and ensure that it passes each test.
+Because this application won’t be deployed, you’ll need to provide a link to a walkthrough video that demonstrates its functionality and all of the tests passing. You’ll need to submit a link to the video AND add it to the readme of your project.
 
-When prompted for team members and their information, then an HTML is generated that displays a nicely formatted team roster based on user input.
-
-Table of Contents
-Description
-Installation
-Usage
-Tests
-Technology Used
-Questions
-Installation
-To install this application, clone the code into your terminal for the respective repository. Then, install npm by entering the command npm init into the terminal. Inquirer must then be installed by entering npm install inquirer. Finally, the program can then be run by entering node develop/index.js into the command line, and answering each question appropriately.
-
-npm install inquirer
-
-var inquirer = require('inquirer');
-  inquirer
-    .prompt([
-    ])
-    .then((answers) => {
-    })
-    .catch((error) => {
-      if (error.isTtyError) {
-      } else {
-      }
-    });
-Usage
-Inquirer is easiest to use when installed with npm: npm install inquirer. Then you can load the module into your code with a require call: const inquirer = require(‘inquirer’);
-
-Enter management information
-You will be redirected to a menu, where you can choose to add an engineer, add an intern, or end the application
-If you choose to add an engineer or an intern, you will be reprompted to the menu until you choose to end the application
-Once you end the application, your software team will be generated in an HTML file
+Note: There is no starter code for this assignment.
 
 
-Tests
-GitHub license
-Technology Used
-HTML
-CSS
-JavaScript
-Node.js
-Inquirer
-Path
-Jest
-Questions
-My Github username is 
+## User Story
 
-The Github page for this project can be accessed using the following link: 
+AS A manager
+I WANT to generate a webpage that displays my team's basic info
+SO THAT I have quick access to their emails and GitHub profiles
 
-Link to Demo Video
-Video location in Github
+
+
+## Acceptance Criteria
+
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for my team members and their information
+THEN an HTML file is generated that displays a nicely formatted team roster based on user input
+WHEN I click on an email address in the HTML
+THEN my default email program opens and populates the TO field of the email with the address
+WHEN I click on the GitHub username
+THEN that GitHub profile opens in a new tab
+WHEN I start the application
+THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number
+WHEN I enter the team manager’s name, employee ID, email address, and office number
+THEN I am presented with a menu with the option to add an engineer or an intern or to finish building my team
+WHEN I select the engineer option
+THEN I am prompted to enter the engineer’s name, ID, email, and GitHub username, and I am taken back to the menu
+WHEN I select the intern option
+THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
+WHEN I decide to finish building my team
+THEN I exit the application, and the HTML is generated
+
+
+## Mock-Up
+The following image shows a mock-up of the generated HTML’s appearance and functionality:
+![Alt text](assets/Screen%20Shot%202022-12-24%20at%202.01.24%20PM.png)
+The styling in the image is just an example, so feel free to add your own.
+
+## Links 
+Below are links to my demo video and the video location on my Github, respectfully:
+
+[Link to Demo Video](assets/video)
+Github Repo
+
