@@ -38,17 +38,8 @@ If you choose to add an engineer or an intern, you will be reprompted to the men
 Once you end the application, your software team will be generated in an HTML file
 
 
-Contributors
-To contribute to Team_profile_generator, clone this repo locally and commit your code on a separate branch.
-
-Contributors:
-
-
-Made with contributors-img.
-
 Tests
 GitHub license
-
 Technology Used
 HTML
 CSS

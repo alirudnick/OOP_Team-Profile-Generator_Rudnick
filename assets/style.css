@@ -1,0 +1,39 @@
+header {
+    color: white;
+    background-color: red;
+    font-size: 3em;
+    padding: 12px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px; 
+}
+
+.card {
+    padding: 10px;
+    margin: 15px;
+}
+
+.card-header {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.584);
+
+}
+
+.list-group {
+    color: blue;
+}
+
+.list-group-item {
+    white-space: nowrap;
+    overflow: visible;
+}
+
+#email {
+    color: black;
+}
