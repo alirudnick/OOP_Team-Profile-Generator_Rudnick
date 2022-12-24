@@ -1,6 +1,6 @@
 header {
     color: white;
-    background-color: red;
+    background-color: rgb(228, 149, 149);
     font-size: 3em;
     padding: 12px;
     margin: 10px;
@@ -12,21 +12,24 @@ main {
     display: flex;
     flex-wrap: wrap;
     margin: 20px; 
+    padding: 10px;
+    justify-content: center;
 }
 
 .card {
     padding: 10px;
     margin: 15px;
+    justify-content: center;
 }
 
 .card-header {
     color: white;
-    background-color: rgba(0, 0, 255, 0.584);
+    background-color: violet
 
 }
 
 .list-group {
-    color: blue;
+    color: black;
 }
 
 .list-group-item {
