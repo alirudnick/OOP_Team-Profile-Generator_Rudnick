@@ -47,5 +47,5 @@ The styling in the image is just an example, so feel free to add your own.
 Below are links to my demo video and the video location on my Github, respectfully:
 
 [Link to Demo Video](assets/video)
-Github Repo
+Github Repo: https://github.com/alirudnick/OOP_Team-Profile-Generator_Rudnick.git
 
